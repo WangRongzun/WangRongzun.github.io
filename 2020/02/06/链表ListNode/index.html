@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Java web开发的学习内容 | Hexo</title>
-  <meta name="keywords" content=" Java , 基础 ">
-  <meta name="description" content="Java web开发的学习内容 | Hexo">
+  <title>链表ListNode | Hexo</title>
+  <meta name="keywords" content=" 后端 , 链表 ">
+  <meta name="description" content="链表ListNode | Hexo">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="article">
 <meta property="og:title" content="KMP模式匹配算法">
@@ -271,9 +271,9 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="post-Java web开发的学习内容" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-链表ListNode" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">Java web开发的学习内容</h1>
+        <h1 class="article-title">链表ListNode</h1>
     
     <div class="article-meta">
         
@@ -281,23 +281,23 @@
         
         <span class="book">
             
-                <a  data-rel="后端">后端</a>
+                <a  data-rel="Java">Java</a>
             
         </span>
         
         
         <span class="tag">
             
-            <a class="color5">Java</a>
+            <a class="color3">后端</a>
             
-            <a class="color3">基础</a>
+            <a class="color3">链表</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2020-02-05 22:33:50'>2020-02-05 15:40</time>
+        创建时间:<time class="date" title='更新时间: 2020-02-07 16:28:04'>2020-02-06 22:42</time>
         
     </div>
     <div class="article-meta">
@@ -319,7 +319,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#基础知识"><span class="toc-text">基础知识</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#工具"><span class="toc-text">工具</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#框架"><span class="toc-text">框架</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#应用层框架"><span class="toc-text">应用层框架</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#中间件"><span class="toc-text">中间件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#数据库"><span class="toc-text">数据库</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#架构方面"><span class="toc-text">架构方面</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#分布式-微服务架构"><span class="toc-text">分布式&#x2F;微服务架构</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#虚拟化-容器化的技术"><span class="toc-text">虚拟化&#x2F;容器化的技术</span></a></li></ol></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Java中需要自己定义一个ListNode类来生成链表对象。自定义的链表类如下："><span class="toc-text">Java中需要自己定义一个ListNode类来生成链表对象。自定义的链表类如下：</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -335,40 +335,12 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><ul>
-<li>编程语言：Java</li>
-<li>基本算法</li>
-<li>基本网络知识：TCP/IP HTTP/HTTPS</li>
-<li>基本的设计模式</li>
-</ul>
-<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><ul>
-<li>操作系统：Linux（CentOS/Ubuntu…）</li>
-<li>代码管理：SVN/Git</li>
-<li>持续集成（CI/CD）：jenkins</li>
-<li>Java的项目管理工具：Maven/Gradle</li>
-</ul>
-<h2 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h2><h4 id="应用层框架"><a href="#应用层框架" class="headerlink" title="应用层框架"></a>应用层框架</h4><ul>
-<li>ssm：spring springmvc mybatis</li>
-<li>springboot</li>
-</ul>
-<h4 id="中间件"><a href="#中间件" class="headerlink" title="中间件"></a>中间件</h4><ul>
-<li>MQ消息队列</li>
-<li>RPC通信框架 gRPC thrift dubbo springcloud</li>
-<li>elasticsearch 搜索引擎</li>
-</ul>
-<h4 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h4><ul>
-<li>SQL：MySQL/Postgre SQL</li>
-<li>NoSQL：Redis Memcached mongodb elasticsearch</li>
-</ul>
-<h2 id="架构方面"><a href="#架构方面" class="headerlink" title="架构方面"></a>架构方面</h2><h4 id="分布式-微服务架构"><a href="#分布式-微服务架构" class="headerlink" title="分布式/微服务架构"></a>分布式/微服务架构</h4><ul>
-<li>spring cloud</li>
-<li>dubbo</li>
-<li>rpc通信</li>
-</ul>
-<h4 id="虚拟化-容器化的技术"><a href="#虚拟化-容器化的技术" class="headerlink" title="虚拟化/容器化的技术"></a>虚拟化/容器化的技术</h4><ul>
-<li>Docker容器化</li>
-<li>k8s kubernetes</li>
-</ul>
+        <h3 id="Java中需要自己定义一个ListNode类来生成链表对象。自定义的链表类如下："><a href="#Java中需要自己定义一个ListNode类来生成链表对象。自定义的链表类如下：" class="headerlink" title="Java中需要自己定义一个ListNode类来生成链表对象。自定义的链表类如下："></a>Java中需要自己定义一个ListNode类来生成链表对象。自定义的链表类如下：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">public class ListNode &#123;</span><br><span class="line">       int val;</span><br><span class="line">       ListNode next;   &#x2F;&#x2F; 下一个链表对象</span><br><span class="line">       </span><br><span class="line">       ListNode(int x) &#123; val &#x3D; x; &#125;  &#x2F;&#x2F;赋值链表的值</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;例：</span><br><span class="line">ListNode l1;</span><br><span class="line">ListNode l2;</span><br><span class="line">ListNode l3;</span><br><span class="line"></span><br><span class="line">l1.val &#x3D; 1;</span><br><span class="line">l2 &#x3D; l1.next;</span><br><span class="line">l2.val &#x3D; 2;</span><br><span class="line">l3 &#x3D; l2.next;</span><br><span class="line">l3.val &#x3D; 3;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;链表为：</span><br><span class="line">1 -&gt; 2 -&gt; 3</span><br></pre></td></tr></table></figure>
+
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 565103509@qq.com </span>
@@ -382,12 +354,12 @@
 
 
 <div class="article_copyright">
-    <p><span class="copy-title">文章标题:</span>Java web开发的学习内容</p>
+    <p><span class="copy-title">文章标题:</span>链表ListNode</p>
     
     <p><span class="copy-title">本文作者:</span><a  title="Pill Area">Pill Area</a></p>
-    <p><span class="copy-title">发布时间:</span>2020-02-05, 15:40:25</p>
-    <p><span class="copy-title">最后更新:</span>2020-02-05, 22:33:50</p>
-    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/02/05/Java%20web%E5%BC%80%E5%8F%91%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9/" title="Java web开发的学习内容">http://yoursite.com/2020/02/05/Java%20web%E5%BC%80%E5%8F%91%E7%9A%84%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9/</a>
+    <p><span class="copy-title">发布时间:</span>2020-02-06, 22:42:44</p>
+    <p><span class="copy-title">最后更新:</span>2020-02-07, 16:28:04</p>
+    <span class="copy-title">原始链接:</span><a class="post-url" href="/2020/02/06/%E9%93%BE%E8%A1%A8ListNode/" title="链表ListNode">http://yoursite.com/2020/02/06/%E9%93%BE%E8%A1%A8ListNode/</a>
     <p>
         <span class="copy-title">版权声明:</span><i class="fa fa-creative-commons"></i> <a rel="license noopener" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
     </p>
